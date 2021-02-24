@@ -580,7 +580,7 @@
                 }
                 .portfolio__container{
                     justify-items: center;
-                    row-gap: 1rem;
+                    row-gap: .5rem;
                 }
                 .portfolio__img{
                     position: relative;
@@ -588,6 +588,10 @@
                 }
                 .portfolio__img img{
                     border-radius: .5rem;
+                    height: 300px;
+                    width: 400px;
+                    background-attachment: fixed;
+                    background-repeat: no-repeat;
                 }
                 .portfolio__link{
                     position: absolute;
@@ -602,7 +606,7 @@
                     cursor: pointer;
                     backdrop-filter: blur(10px);
                     transition: .3s;
-                    font-size: 30px;
+                    font-size: 20px;
 
 
                 }
@@ -672,14 +676,16 @@
                     padding: .25rem 0;
                 }
                 .footer__link:hover{
-                    color: var(--first-color);
+                    color: #fff;
+                    font-size: 1.5rem;
                 }
                 .footer__social{
                     font-size: 1.4rem;
                     margin-right: var(--mb-1);
                 }
                 .footer__social:hover{
-                    color: var(--first-color);
+                    color: #fff;
+                    font-size: 1.8rem;
                 }
 
                 /* ===== MEDIA QUERIES =====*/
