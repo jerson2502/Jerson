@@ -83,9 +83,9 @@ sr.reveal('.contact__button', {delay: 600})
         loop: true
     });
  var typed = new Typed(".hello", {
-        strings: ["Hello!Good Day! I am Jerson Pamplona."],
-        typeSpeed: 80,
-        backSpeed: 20,
+        strings: ["Hello,Good Day! I'm Jerson Pamplona."],
+        typeSpeed: 50,
+        backSpeed: 10,
         loop: true
     });
 

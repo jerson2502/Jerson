@@ -91,17 +91,21 @@
                     text-align: center;
                     text-shadow: 0 3px white;
                 }
+                .section-title:hover{ 
+                    color: crimson;
+                }
                 .section-title::after{
                     position: absolute;
                     content: "";
-                    width: 32px;
+                    width: 42px;
                     height: .18rem;
                     left: 0;
                     right: 0;
                     margin: auto;
                     top: 2rem;
-                    background-color: var(--first-color);
+                    background-color: var(--dark-color);
                 }
+
 
                 /*===== LAYOUT =====*/
                 .bd-grid{
@@ -448,7 +452,7 @@
                     background-size: cover;
                   }
                   .skills__container .card:nth-child(4){
-                    background: url("https://i.gifer.com/BXe0.gif") no-repeat;
+                    background: url("https://wallpaper-house.com/data/out/6/wallpaper2you_85608.jpg") no-repeat;
                     background-size: cover;
                   }
                   
@@ -611,12 +615,15 @@
 
                 }
                 .portfolio__link a{
-                  color: #ffffff;
+                    color: #ffffff;
                 }
                 .portfolio__img:hover .portfolio__link{
                     bottom: 0;
                     
                 }
+
+               /* ################# graphics ##################*/
+               
                 
 
                 /* ===== CONTACT =====*/
